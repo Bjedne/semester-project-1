@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+   list-style-type: none;
+}
+
+/* HEADER STYLES */
+header {
+    background-color: rgb(205, 206, 155);
+    position: relative;
+}
+
+.header-logo {
+    max-width: 174px;
+    max-height: 76px;
+    margin: 5%;
+}
+
+nav {
+    right: 10px;
+    justify-self: center;
+}
+
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+.hamburger {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    font-size: x-large;
+}
