@@ -148,6 +148,19 @@ ul {
     }
 }
 
+/* FOOTER STYLES */
+footer {
+    padding-bottom: 1em;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_logo {
+    max-width: 174px;
+    max-height: 76px;
+    margin: 5% auto 0px;
+}
+
 /* INDEX STYLES */
 @media (max-width: 1007px) {
     .explore,
@@ -315,15 +328,14 @@ ul {
     }
 }
 
-/* Footer Styles */
-footer {
-    padding-bottom: 1em;
-    flex-direction: column;
-    text-align: center;
+/* ABOUT STYLES */
+.about {
+    margin: 4em;
+    line-height: 1.4;
 }
 
-.footer_logo {
-    max-width: 174px;
-    max-height: 76px;
-    margin: 5% auto 0px;
+.about img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
 }
