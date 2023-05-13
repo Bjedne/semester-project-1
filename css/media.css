@@ -1,0 +1,67 @@
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 640px) and (max-width: 1007px) {
+
+}
+
+@media (min-width: 1008px) {
+
+}
+
+
+@media (min-width: 1008px) {
+    .get_involved_images {
+        width: 350px;
+    }
+}
+
+@media (min-width:1007px) {
+    /* EXHIBITIONS DESKTOP */
+    .exhibitions {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto repeat(2, 1fr);
+    }
+
+    .exhibition_image {
+        max-width: 500px;
+    }
+
+    .exhibitions h1 {
+        text-align: center;
+    }
+
+    .cosmology {
+        grid-row: 2/3;
+    }
+
+    .evolution {
+        grid-row: 2/3;
+    }
+
+    .biomed {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .roboai {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .moons {
+        object-fit: cover;
+        height: 333px;
+    }
+
+    .cosmology,
+    .evolution,
+    .biomed,
+    .roboai {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+    }
+}

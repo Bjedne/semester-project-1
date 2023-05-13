@@ -17,7 +17,7 @@ body {
     margin: 0;
 }
 
-a:visited { text-decoration: none; color:black; }
+a:visited {text-decoration: none; color:black;}
 
 h1,
 h2, 
@@ -87,6 +87,7 @@ ul {
 
 .hamburger {
     position: absolute;
+    cursor: pointer;
 }
 
 nav li a:hover {
@@ -136,6 +137,7 @@ nav li a:hover {
 @media (min-width: 1008px) {
     .header-logo {
         max-width: 380px;
+        margin-bottom: 20px;
     }
 
     .hamburger {
@@ -150,7 +152,7 @@ nav li a:hover {
 
     ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding-bottom: 1em;
         margin-bottom: 0px;
     }
@@ -263,6 +265,10 @@ footer {
         object-fit: cover;
         height: 300px;
     }
+
+    .margin_right{
+        margin-right: 2em;
+    }
 }
 
 .image_divider {
@@ -286,6 +292,7 @@ footer {
 .map_image {
     margin: 1rem auto;
 }
+
 
 @media (max-width:640px) {
     .visit_us {
@@ -333,22 +340,43 @@ footer {
     .gray {
         grid-row: 3/4;
         margin-bottom: 2em;
-        margin-right: 2em;
     }
 }
 
-/* EXHIBITION STYLES */
-.exhibitions {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 300px;
-    
+/* EXHIBITION & EVENT STYLES */
+@media (max-width:1006px) {
+    .center {
+        display: flex;
+        line-height: 1.4;
+        margin: auto;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .museum_night {
+        height: 200px;
+        object-position: 0 60%;
+    }    
 }
 
-.exhibitions p,
-.exhibitions h2 {
-    margin: 16px;
+.museum_night {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}   
+
+.center p,
+.center h2 {
+    margin: 16px 30px;
+}
+
+.margin_bot {
+    margin-bottom: 3em;
+}
+
+.event_date {
+    text-align: end;
+    font-weight: bold;
 }
 
 @media (max-width:640px) {
@@ -357,23 +385,16 @@ footer {
     }
 }
 
-@media (min-width:640px) and (max-width:1007) {
+@media (min-width:640px) and (max-width:1007px) {
     .exhibition_image {
-        max-width: 300px;
+        max-width: 400px;
     }
+
+    .center {
+        max-width: 400px;
+    }  
 }
 
-.margin_bot {
-    margin-bottom: 3em;
-}
-
-/* EVENTS STYLES */
-.museum_night {
-    object-fit: cover;
-    width: 100%;
-    height: 200px;
-    object-position: 0 60%;
-}
 
 /* ABOUT STYLES */
 .about {
@@ -386,3 +407,40 @@ footer {
     object-fit: cover;
     height: 200px;
 }
+
+/* GET INVOLVED STYLES */
+@media (max-width: 1007px) {
+.get_involved {
+    text-align: center;
+    margin: auto;
+    max-width: 300px;
+    }
+}
+
+
+@media (min-width: 1008px){
+.support {
+   display: flex;
+   margin-left: 2em;
+   margin-right: 2em;
+    }
+}
+
+
+
+.handshake,
+.volunteer,
+.internship {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.volunteer {
+    object-position: -9% 0;
+}
+
+.internship {
+    object-position: -2% 0;
+}
+
