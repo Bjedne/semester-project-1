@@ -1,4 +1,4 @@
-@media (min-width: 640px) {
+@media (max-width: 640px) {
 
 }
 
@@ -9,6 +9,47 @@
 @media (min-width: 1008px) {
 
 }
+
+
+@media (max-width: 640px) {
+    /* GET INVOLVED MOBILE */
+    .get_involved p {
+        margin: 1em;
+    }
+
+    .get_involved h2 {
+        margin-bottom: 0;
+    }
+
+    .placement {
+        padding: 1px 5px 5px;
+        margin-bottom: 2em;
+    }
+
+    fieldset {
+        border: none;
+        border-radius: 1em;
+    }
+
+    input {
+        padding: 10px;
+        margin-bottom: 1em;
+    }
+
+    .message {
+        padding-bottom: 4em;
+    }
+
+    .submit_button {
+        border-radius: 1em;
+        margin-left: 1em;
+    }
+}
+
+
+
+
+
 
 
 @media (min-width: 1008px) {
@@ -65,3 +106,4 @@
         max-width: 500px;
     }
 }
+

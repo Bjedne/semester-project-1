@@ -104,7 +104,7 @@ nav li a:hover {
     }
 
     .hamburger {
-        top: 60px;
+        top: 90px;
         right: 30px;
         font-size: x-large;
     }
@@ -419,7 +419,6 @@ footer {
    .text_box_2 {
     margin: 1em;
    }
-
 }
 
 @media (min-width: 770px) {
@@ -485,8 +484,7 @@ footer {
 @media (min-width: 1008px){
 .support {
    display: flex;
-   margin-left: 2em;
-   margin-right: 2em;
+   margin: auto 2em;
     }
 }
 
