@@ -472,32 +472,6 @@ footer {
 }
 
 /* GET INVOLVED STYLES */
-@media (max-width: 1007px) {
-.get_involved {
-    text-align: center;
-    margin: auto;
-    max-width: 300px;
-    }
-}
-
-
-@media (min-width: 1008px){
-.support {
-   display: flex;
-   margin: auto 2em;
-    }
-}
-
-
-
-.handshake,
-.volunteer,
-.internship {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-}
-
 .volunteer {
     object-position: -9% 0;
 }
@@ -506,3 +480,28 @@ footer {
     object-position: -2% 0;
 }
 
+fieldset {
+    border: none;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit_button {
+    border-radius: 1em;
+    width: 40%;
+    margin: auto;
+}
+
+.placement {
+    margin-bottom: 2em;
+}
+
+.message {
+    padding-bottom: 4em;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 1em;
+}
