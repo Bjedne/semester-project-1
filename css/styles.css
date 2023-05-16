@@ -97,66 +97,6 @@ nav li a:hover {
     border-radius: 1em;
 }
 
-    /* HEADER MOBILE STYLES */
-@media (max-width:640px) {
-    .header-logo {
-    max-width: 174px;
-    }
-
-    .hamburger {
-        top: 90px;
-        right: 30px;
-        font-size: x-large;
-    }
-}
-
-    /* HEADER TABLET STYLES */
-@media (min-width:640px) and (max-width:1007px) {
-    .header-logo {
-        max-width: 250px;
-    }
-
-    .hamburger {
-        top: 100px;
-        right: 60px;
-        font-size: 40px;
-    }
-
-    nav a {
-        font-size: 32px;
-    }
-}
-
-@media (max-width: 1007px) {
-    nav {
-        display: none;
-    }
-}
-
-/* HEADER DESKTOP STYLES */
-@media (min-width: 1008px) {
-    .header-logo {
-        max-width: 380px;
-        margin-bottom: 20px;
-    }
-
-    .hamburger {
-        display: none;
-    }
-
-    nav a {
-        font-size: 30px;
-        margin-right: 0.2em;
-        margin-left: 0.2em;
-    }
-
-    ul {
-        display: flex;
-        justify-content: space-evenly;
-        padding-bottom: 1em;
-        margin-bottom: 0px;
-    }
-}
 
 /* FOOTER STYLES */
 footer {
@@ -173,14 +113,6 @@ footer {
 }
 
 /* INDEX STYLES */
-@media (max-width: 1007px) {
-    .explore,
-    .visit_us,
-    footer {
-       display: flex;
-    }
-}
-
 .explore_image {
     max-width: 224px;
     margin: 1rem auto;
@@ -220,57 +152,6 @@ footer {
     text-align: end;
 }
 
-@media (max-width:640px) {
-    .explore {
-        flex-direction: column;
-        max-width: 300px;
-        margin: auto;
-    }
-}
-
-@media (min-width: 640px) and (max-width: 1007px) {
-    .index_info {
-        margin: 2em 2em 1.5em 0px;
-    }
-
-    .explore_image {
-        margin: 1em 2em
-    }
-}
-
-@media (min-width: 1008px) {
-    .explore_grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto 1fr auto;
-        margin: auto 3em;
-        text-align: center;
-    }
-
-    .explore {
-        margin: 1px 1.5em;
-    }
-
-    .index_info {
-        padding-bottom: 0.5em;
-    }
-
-    .e1, 
-    .e2, 
-    .e3 {
-        grid-row: 2/3;
-    }
-
-    .image_divider {
-        object-fit: cover;
-        height: 300px;
-    }
-
-    .margin_right{
-        margin-right: 2em;
-    }
-}
-
 .image_divider {
     width: 100%;
     margin-bottom: 2em;
@@ -291,72 +172,6 @@ footer {
 
 .map_image {
     margin: 1rem auto;
-}
-
-
-@media (max-width:640px) {
-    .visit_us {
-        max-width: 310px;
-    }
-
-    .map_image {
-        max-width: 224px;
-        margin: 1rem auto;
-    }
-}
-
-@media (min-width: 640px) and (max-width: 1007px) {
-    .visit_us {
-        max-width: 510px;
-    }
-
-    .map_image {
-        width: 270px;
-    }
-}
-
-@media (min-width: 1008px) {
-    .visit_us {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto repeat(2fr);
-    }
-
-    .visit_us h1 {
-        margin-left: 10%;
-    }
-
-    .opening_hours {
-        grid-row: 2/4;
-        margin: 2em;
-    }
-
-    .map_image {
-        grid-row: 1/3;
-        width: 300px;
-        align-self: flex-end;
-    }
-
-    .gray {
-        grid-row: 3/4;
-        margin-bottom: 2em;
-    }
-}
-
-/* EXHIBITION & EVENT STYLES */
-@media (max-width:1006px) {
-    .center {
-        display: flex;
-        line-height: 1.4;
-        margin: auto;
-        flex-direction: column;
-        max-width: 300px;
-    }
-
-    .museum_night {
-        height: 266px;
-        object-position: 0 60%;
-    }    
 }
 
 .museum_night {
@@ -407,17 +222,17 @@ footer {
 
 @media (max-width: 770px) {
    .events {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 400px;
-    line-height: 1.4;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 400px;
+        line-height: 1.4;
    }
 
    .events h2,
    .text_box,
    .text_box_2 {
-    margin: 1em;
+        margin: 1em;
    }
 }
 
