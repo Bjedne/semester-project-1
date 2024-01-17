@@ -1,5 +1,7 @@
 # Community Science Museum Semester Project
 
+![community_science_museum](https://github.com/NoroffFEU/portfolio-1-example/assets/126247097/81f8aa27-ba55-489b-ad68-3b807eb818c1)
+
 The purpose of this project was to make a website for a science museum.
 
 ## Description
